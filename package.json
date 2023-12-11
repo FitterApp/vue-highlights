@@ -1,6 +1,6 @@
 {
   "name": "vue-highlights",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Easy @mention, #hashtag and URL highlight for Vue 2.x",
   "author": "Samuel Parry <sam@movement.so>",
