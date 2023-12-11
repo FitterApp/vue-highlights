@@ -1,4 +1,11 @@
-# vue-highlights
+# vue-highlight-url
+
+Butchered version of [vue-highlights](https://github.com/pggalaviz/vue-highlights) to only link URLS (not hashtags or mentions)
+
+Much more lightweight than the public version
+
+
+# From vue-highlights README
 
 Easy @mention, #hashtag and URL highlight for Vue 2.x
 
