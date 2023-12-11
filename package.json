@@ -8,23 +8,11 @@
   "dependencies": {
     "punycode": "^2.1.1"
   },
-  "devDependencies": { },
-  "bugs": {
-    "url": "https://github.com/pggalaviz/vue-highlights/issues"
-  },
-  "homepage": "https://github.com/pggalaviz/vue-highlights#readme",
-  "keywords": [
-    "vue",
-    "highlight",
-    "highlights",
-    "mention",
-    "mentions",
-    "hashtag",
-    "hashtags"
-  ],
+  "main": "src/index.js",
+  "devDependencies": {},
   "licence": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pggalaviz/vue-highlights.git"
+    "url": "git+https://github.com/smlparry/vue-highlights.git"
   }
 }
