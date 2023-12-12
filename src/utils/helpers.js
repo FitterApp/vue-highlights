@@ -7,7 +7,7 @@ const HTML_ENTITIES = {
 export function htmlEscape(text) {
   return (
     text &&
-    text.replace(/[&"'><]/g, function (character) {
+    text.replace(/[&"']/g, function (character) {
       return HTML_ENTITIES[character];
     })
   );
