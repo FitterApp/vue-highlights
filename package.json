@@ -4,12 +4,19 @@
   "private": false,
   "description": "Easy @mention, #hashtag and URL highlight for Vue 2.x",
   "author": "Samuel Parry <sam@movement.so>",
-  "scripts": { },
+  "scripts": {
+    "prepare": "babel src -d dist",
+    "build": "babel src -d dist"
+  },
   "dependencies": {
     "punycode": "^2.1.1"
   },
-  "main": "src/index.js",
-  "devDependencies": {},
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6"
+  },
   "licence": "MIT",
   "repository": {
     "type": "git",
